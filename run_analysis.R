@@ -24,7 +24,6 @@ test <- cbind(testSubjects, testLabels, test)
 data <- rbind(train,test)
 
 # Add header to data.frame
-<<<<<<< HEAD
 names(data) <- c("Subject","Activity",features$V2)
 
 # Filter mean and std data
@@ -71,5 +70,5 @@ headers[2] <- "Activity"
 names(data.result) <- headers
 
 # Write results
-write.table(data.result,"~/GitHub/GettingAndCleaningData/submission.txt", row.names = FALSE)
+write.table(data.result,"submission.txt", row.names = FALSE)
 
