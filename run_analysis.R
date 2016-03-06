@@ -24,6 +24,7 @@ test <- cbind(testSubjects, testLabels, test)
 data <- rbind(train,test)
 
 # Add header to data.frame
+<<<<<<< HEAD
 names(data) <- c("Subject","Activity",features$V2)
 
 # Filter mean and std data
